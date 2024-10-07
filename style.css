@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(./img/Petunai42_1p5jz9.jpg);
+    background-size: cover;
+}
+
+.dangKy,
+.thongtin {
+    border: 3px solid white;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    padding: 1vw;
+    background: rgba(255, 0, 217, 0.57);
+    background: linear-gradient(90deg, rgba(255, 0, 217, 0.118) 0%, rgba(0, 233, 237, 0.162) 51%, rgba(0, 4, 255, 0.162) 100%);
+    backdrop-filter: blur(1px);
+    border-radius: 30px;
+    color: white;
+
+}
+
+.name,
+.birday,
+.tel,
+.address,
+.usename,
+.password,
+.nhaplaimatkhau,
+.email {
+    width: 100%;
+    border: none;
+    height: 3vw;
+    margin-top: 0.5vw;
+    position: relative;
+    color: ;
+}
+
+.name input,
+.tel input,
+.address input,
+.usename input,
+.password input,
+.nhaplaimatkhau input,
+.email input {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.34);
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 3px solid white;
+    padding: 1vw;
+}
+
+.name i,
+.tel i,
+.address i,
+.usename i,
+.password i,
+.nhaplaimatkhau i,
+.email i {
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    font-size: smaller;
+}
+
+.name ::placeholder,
+.birday ::placeholder,
+.tel ::placeholder,
+.address ::placeholder,
+.usename ::placeholder,
+.password ::placeholder,
+.nhaplaimatkhau ::placeholder,
+.email ::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 1vw;
+}
+
+.button input {
+    width: 10vw;
+    height: 2vw;
+    border-radius: 30px;
+    border: 3px solid white;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+}
+
+.button input:hover {
+    background-color: black;
+    border: 3px solid black;
+}
+
+.dangKy p {
+    text-align: left;
+    margin: 1vw;
+}
+
+.dangKy span {
+    color: red;
+    font-weight: bold;
+}

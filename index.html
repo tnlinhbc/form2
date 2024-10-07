@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="main.js"></script>
+    <div class="dangKy">
+        <h1>Register</h1>
+        <form action="" name="frDangKy" method="post">
+            <div class="name">
+                <input type="text" name="name" placeholder=" Name">
+                <i class="fa-solid fa-signature"></i>
+            </div>
+            <div class="tel">
+                <input type="tel" name="tel" placeholder="Tel">
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="email">
+                <input type="email" name="email" placeholder="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="address">
+                <input type="text" name="address" placeholder="Address">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+        </form>
+
+    </div>
+    <div class="thongtin">
+        <h1>information</h1>
+        <form action="" name="thongTin" method="post">
+            <div class="usename">
+                <input type="text" name="usename" placeholder="Use name">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="password">
+                <input type="password" name="password" placeholder="Password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="nhaplaimatkhau">
+                <input type="text" name="nhaplaimatkhau" placeholder="Re-enter password">
+                <i class="fa-solid fa-key"></i>
+            </div>
+            <div class="button">
+                <input type="button" onclick=" return kiemtra()" value="Register">
+                <input type="button" onclick="return huy()" value="Cancel">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
